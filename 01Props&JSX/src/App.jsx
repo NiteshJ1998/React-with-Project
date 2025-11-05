@@ -23,9 +23,7 @@ function App() {
           <UserCard key={index} name={user.name} age={user.age} />
         ))}
 
-        {users.map((user, index) => (
-          <UserCard key={index} name={user.name} age={user.age} />
-        ))}
+      
       </div>
     </>
   );
