@@ -1,10 +1,10 @@
 import "./App.css";
-import Example from "./useEffect Hook (React Lifecycle)/Example";
+import Weather from "./componenets/Weather";
 
 function App() {
   return (
     <>
-      <Example />
+      <Weather />
     </>
   );
 }
